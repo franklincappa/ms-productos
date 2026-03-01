@@ -28,6 +28,8 @@ public class ProductoService {
                     .precio(130.00).stock(30).categoria("Periféricos").activo(true).build(),
 
             Producto.builder().id(5L).nombre("Auriculares Sony WH-1000XM5").descripcion("Auriculares inalámbricos con cancelación de ruido")
+                    .precio(350.00).stock(20).categoria("Audio").activo(false).build(),
+            Producto.builder().id(6L).nombre("Microfono Teraware TW-3000").descripcion("Microfono con control")
                     .precio(350.00).stock(20).categoria("Audio").activo(false).build()
     ));
 
